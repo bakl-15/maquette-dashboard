@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+          <!-- le menu latéral -->
+          <input type="checkbox" name="toggle" id="sidebar-toggle">  <!-- checkbox pour réduire le menu latéral -->
+       
+          <div class="sidebar">
+          
+              <div class="sidebar-header">
+                  <a href="">
+                        <i class="fab fa-2x fa-avianex" style="color:white;" ></i>  
+                        <span>MegaBite</span> 
+                 </a>
+              </div>
+              <div class="sidebar-menu" >
+                <ul class="tabs">
+                    <li class="active">
+                        <a href="#">
+                            <label for="sidebar-toggle">
+                                <i class="fas fa-align-justify"> </i>
+                                <span>Dashboard</span>
+                            </label>  
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-balance-scale"></i>
+                            <span>Marke</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-user-alt"></i>
+                            <span>Clients</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Experience</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-user-shield"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <span>Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-cog"></i>
+                            <span>Setting</span>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+              <!-- Fin de menu latéral -->
+          </div>
+         
+
+          <!-- le contenu du dashboard -->
+          <div class="main-content">
+            <!-- La barre de navigation -->
+            <header>
+                 <div class="header-search">
+                    <i class="fas fa-search"></i>
+                     <input type="search" name="" id="" placeholder="Search by keyword, Name or gerron">
+                 </div>
+                 <div class="header-elements">
+                     <div class="header-icons-chat">
+                         <i class="fas fa-comments" style="color: #95a2c5;"></i>
+                     </div>
+                     <div class="header-icons-info">
+                         <i class="far fa-question-circle"  style="color: #95a2c5;"></i>
+                     </div>
+                     <div class="header-avatar">
+                           <img src="src/img/Macaca_nigra_self-portrait_large-e1524567086123 (1).jpg" alt="photo de l'avatar" width=38px, height="38px">
+                     </div>
+                     <span class="header-form">
+   
+                        <select name="" id="">
+                            <option value=""> Jasson</option>
+                        </select>
+                         
+                    </span>
+                    
+                 </div>
+            </header>
+            <!-- Fin de la barre de navigation -->
+
+            <!-- Le contenu de dhashboard -->
+            <main>
+                    <!-- le titre de main -->
+                <div class="main-head">
+                    <h2>Hello Jasson!</h2>
+                    <p>Welcome to the Dashboard</p>
+                </div>     
+                     <!-- debut main-1  -->
+                <div class="main-1">
+                    <!-- le graph -->
+    
+                    <div class="dashboard-graph">
+                        <img src="src/img/Capture_decran_2020-11-21_a_17.56.08.png" alt="graphe">
+                    </div>
+    
+                    <!-- Fin de graph -->
+    
+                    <!-- Cards -->
+                    <div class="main-1-cards">
+                        <h3>Credit Cards</h3>
+                        <img src="src/img/Capture_decran_2020-11-21_a_17.56.30.png" alt="carte banquaire">
+                        <div class="main-1-cards-footer">
+                               <div class="main-1-card-details">
+                                    <div class="main-1-card-footer-text">Credit availible</div>
+                                    <div class="main-1-card-footer-number">$345</div>
+                               </div>
+                               <div class="main-1-card-details">
+                                    <div class="main-1-card-footer-text">Due Date</div>
+                                     <div class="main-1-card-footer-number">4/21</div>
+                               </div>
+                        </div>
+                    </div>
+          
+                      <!-- Fin card -->
+
+                 </div>
+
+                 <!-- Fin main1 -->
+
+                <!-- Début main2 -->
+                <div class="main-2">
+                    <div class="main-2-cards-footer">
+                        <img src="src/img/Capture_decran_2020-11-21_a_17.56.16.png" alt="statistique">
+                    </div>    
+                    <div class="main-2-cards-table">
+                           <h4>Account Watch list</h4>
+                           <table>
+                               <thead>
+                                   <tr>
+                                       <th>Date</th>
+                                       <th>Account</th>
+                                       <th>this month</th>
+                                       <th>YTD</th>
+                                   </tr>
+                               </thead>
+                               <tbody>
+                                   <tr>
+                                       <td data="Date">04/18/2018</td>
+                                       <td data="Account">Maching</td>
+                                       <td data="This month">$20 000.00</td>
+                                       <td data="YTD">$5 400.00</td>
+                                   </tr>
+                                   <tr>
+                                       <td data="Date">04/11/2019</td>
+                                       <td data="Account">Advertising</td>
+                                       <td data="This month">20 000.00</td>
+                                       <td data="YTD"> $5 400.00</td>
+                                   </tr>
+                                   <tr>
+                                       <td data="Date">05/20/2018</td>
+                                       <td data="Account">Iventory</td>
+                                       <td data="This month">$20 000.00</td>
+                                       <td data="YTD">$5 400.00</td>
+                                   </tr>
+                                   <tr>
+                                       <td data="Date">12/15/2020</td>
+                                       <td data="Account">Sales</td>
+                                       <td data="This month">$20 000.00</td>
+                                       <td data="YTD">$5 400.00</td>
+                                   </tr>
+                                   <tr>
+                                       <td data="Date">07/14/2018</td>
+                                       <td data="Account">Assets</td>
+                                       <td data="This month">$20 000.00</td>
+                                       <td data="YTD">$5 400.00</td>
+                                    </tr>
+                               </tbody> 
+                           </table>
+                    </div>
+                </div>
+            </main>
+    
+
+          <!-- Fin de contenu dashboard -->
+        
+          <script src="https://kit.fontawesome.com/8ceb7962d6.js" crossorigin="anonymous"></script>
+          <script src="App.js"></script>
+</body>
+</html>
